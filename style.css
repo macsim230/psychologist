@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Double+Ink:wght@100..900&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Miranda+Sans:ital,wght@0,400..700;1,400..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+body{
+    /* background: #c2fffb;
+    background: linear-gradient(180deg,rgba(194, 255, 251, 1) 0%, rgb(62, 80, 211) 100%); */
+    background: #020024;
+    background: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    background-attachment: fixed;
+}
+  .navigation{
+    font-size: 21px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    padding: 10px 10px;
+    }
+    .navigation a{
+        color: rgb(127, 126, 126);
+    }
+    .navigation a:hover{
+        color: rgb(255, 231, 202);
+    }
+    .psycholog{
+        display: inline-block;
+        width: 65%;
+        height: auto;
+        border-radius: 8px;
+        text-align: center;
+        height: 1350px;
+        overflow: hidden;
+    }
+    .pp{
+        text-align: center;
+        transform: translate(25px, -40px);
+        pointer-events: none;
+    }
+    .facebook{
+    width: 4%;
+     height: auto;
+    transform: translate(-110px, 106px);
+}
+.linkedin{
+    width: 4%;
+    height: auto;
+    transform: translate(-70px, 106px);
+}
+.telegram{
+    width: 4.3%;
+    height: auto;
+    transform: translate(-18px, 103px);
+}
+.logo{
+    width: 10%;
+    height: auto;
+    transform: translate(5px, 29px);
+}
+.logo-gradient{
+    text-align: center;
+    width: 100%;
+    /* background-color: rgb(249, 217, 176); */
+    background-image: url(images/books3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 278px;
+}
+.fa-instagram{
+    font-size: 66px;
+    transform: translate(-160px, 100px);
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285ae1 90%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.pro-mene{
+    text-align: center;
+    transform: translateY(440px);
+}
+.pro-mene::after{
+    content: "";
+    position: absolute;
+    top: -230px;
+    left: 13px;
+    right: 13px;
+    bottom: -150px;
+    border: 3.3px solid black;
+    border-radius: 25px;
+    z-index: -1; 
+    transform: translate(0px, 200px);
+    background: #f0f0f0;
+background: radial-gradient(circle, rgba(240, 240, 240, 1) 16%, rgba(196, 196, 196, 1) 99%);
+}
+.fio{
+    text-align: center;
+    transform: translateY(100px);
+}
+.hto-ya{
+    transform: translate(100px, 520px);
+}
+.psichoterapiya{
+    transform: translate(100px, 245px);
+    align-items: center;
+}
+.pro-mene2{
+    transform: translate(100px, 175px);
+}
+.moya-robota{
+    transform: translate(100px, 570px);
+}
+.suprovid{
+    transform: translate(100px, 320px);
+}
+.text{
+     position: relative;
+    z-index: 1;
+}
+.text::after {
+    content: "";
+    position: absolute;
+    top: -120px;
+    left: 13px;
+    right: 13px;
+    bottom: 40px;
+    border: 3.3px solid black;
+    border-radius: 25px;
+    z-index: -1; 
+    transform: translate(0px, 200px);
+    background: #f0f0f0;
+background: radial-gradient(circle, rgba(240, 240, 240, 1) 16%, rgba(196, 196, 196, 1) 99%);
+}
+.lang{
+    transform: translate(0px, 80px);
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.ukr-active{
+    background-color: #5566ff;
+    border:3px solid #000000;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-10px);
+}
+.ukr{
+    border:6px solid #000000;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    transform: translateY(-10px);
+     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rus{
+    border:6px solid #000000;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    transform: translateY(-10px);
+     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rus-active{
+    background-color: #5566ff;
+    border:3px solid #000000;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-10px);
+}
+/* .pp{
+    background-image: url(images/photo.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 55px;
+    height: 1000px;
+} */
+
+@media (max-width: 600px){
+    .navigation{
+        font-size: 18px;
+        display: flex;
+        gap: 0px;
+    }
+    .logo{
+        transform: translate(0px, 7px);
+        width: 27%;
+    }
+    .lang{
+        transform: translate(0px, 20px);
+        gap: 12px;
+        font-size: 25px;
+    }
+    .logo-gradient{
+        height: 140px;
+    }
+    .fa-instagram{
+        font-size: 50px;
+        transform: translate(-95px, 60px);
+    }
+    .psycholog{
+        width: 90%;
+        height: auto;
+        transform: translate(-23px, 60px);
+    }
+    .pp{
+        display: flex;
+        justify-content: center;
+    }
+    .facebook{
+        width: 14%;
+        height: auto;
+        transform: translate(-65px, 65px);
+    }
+    .telegram{
+        width: 14%;
+        height: auto;
+        transform: translate(-15px, 65px);
+    }
+    .linkedin{
+        width: 14%;
+        height: auto;
+        transform: translate(-45px, 65px);
+    }
+    .pro-mene{
+        transform: translate(0px, 250px);
+    }
+    .hto-ya{
+        transform: translate(13px, 285px);
+        font-size: 26px;
+    }
+    .moya-robota{
+        transform: translate(13px, 320px);
+        font-size: 26px;
+    }
+.pro-mene2{
+    font-size: 26px;
+    transform: translate(13px, 90px);
+}
+.psichoterapiya{
+    font-size: 26px;
+    transform: translate(13px, 135px);
+}
+.suprovid{
+    font-size: 26px;
+    transform: translate(13px, 175px);
+}
+.fio{
+    text-align: center;
+    transform: translate(0px, 50px);
+}
+.text::after{
+    content: "";
+    position: absolute;
+    top: -120px;
+    left: 13px;
+    right: 13px;
+    bottom: 355px;
+    border: 3px solid black;
+    border-radius: 25px;
+    transform: translate(0px, 150px);
+}
+.pro-mene::after{
+    content: "";
+    position: absolute;
+    top: -230px;
+    left: 13px;
+    right: 13px;
+    bottom: -270px;
+    border: 3px solid black;
+    border-radius: 25px;
+    z-index: -1; 
+    transform: translate(0px, 210px);
+}
+}
+@media (min-width:1024px){
+    .psycholog{
+        transform: translate(-70px, 100px);
+    }
+    .pro-mene{
+        font-size: 50px;
+    }
+    .fio{
+        font-size: 50px;
+    }
+    .mobile-enter{
+        display: none;
+    }
+}
