@@ -1,0 +1,1299 @@
+@import url('https://fonts.googleapis.com/css2?family=Miranda+Sans:ital,wght@0,400..700;1,400..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Miranda Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+a{
+    text-decoration: none;
+}
+body{
+    /* background: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    background-attachment: fixed; */
+    background: #85A8CC;
+    background: linear-gradient(0deg,rgba(133, 168, 204, 1) 0%, rgba(246, 250, 252, 1) 50%, rgba(133, 168, 204, 1) 100%);
+}
+  .navigation{
+    font-size: 21px;
+    color: white;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    transform: translate(200px, 120px);
+    /* border: 3.7px solid black; */
+    position: absolute;
+    left: -40px;
+    right: 220px;
+    display: none;
+}
+.navigation.active{
+    display: block;
+    display: flex;
+    flex-direction: column;
+}
+.navigation a{
+    width: fit-content;
+}
+.navigation::after{
+    content: "";
+    display: flex;
+    flex-direction: column;
+    border: 3.7px solid black;
+    z-index: -2;
+    position: absolute;
+    top: -125px;
+    left: -90px;
+    right: 49px;
+    bottom: -25px;
+    border-radius: 10px;
+}
+  .menu {
+   width: 55px;
+   height: 50px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   background: transparent;
+   border: none;
+   transform: translate(657px, 12px);
+   position: relative;
+   z-index: 99;
+   }
+   .menu-container{
+    background-color: #293e5e;
+    content: "";
+    position: absolute;
+    top: 105px;
+    left: 70px;
+    right: 70px;
+    bottom: 530px;
+    border-radius: 10px;
+    z-index: 9;
+    border: 3.7px solid black;
+    transform: translateY(230px);
+   }
+
+   .menu span {
+    display: block;
+    height: 8.5px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 8px;
+    }
+    .menu:hover {
+    opacity: 0.4;
+    border-radius: 1px;
+   background: transparent;
+
+    }
+    .navigation a{
+        color: rgb(127, 126, 126);
+    }
+    .navigation a:hover{
+        color: #293e5e;
+    }
+    .psycholog{
+        display: inline-block;
+        width: 65%;
+        border-radius: 8px;
+        text-align: center;
+        height: 1350px;
+        overflow: hidden;
+        position:relative;
+        z-index: -1;
+        transform: translateY(110px) !important;
+    }
+    .pp{
+        text-align: center;
+        pointer-events: none;
+    }
+    .facebook{
+     width: 3.7%;
+     height: auto;
+    transform: translate(-110px, 106px);
+}
+.facebook-icon{
+    width: 4.5%;
+     height: auto;
+    transform: translate(26px, 3610px);
+}
+.linkedin{
+    width: 3.7%;
+    height: auto;
+    transform: translate(-70px, 106px);
+}
+.linkedin-icon{
+    width: 4.5%;
+    height: auto;
+    transform: translate(-45px, 3715px);
+}
+.telegram{
+     width: 3.5%;
+    height: auto;
+    transform: translate(-18px, 103px);
+}
+.telegram-icon{
+    width: 4.5%;
+    height: auto;
+    transform: translate(-120px, 3820px);
+}
+.logo{
+    width: 12%;
+    height: auto;
+    transform: translateY(10px);
+}
+.meregi{
+    transform: translate(85px, -65px);
+}
+.logo-gradient{
+    text-align: center;
+    width: 100%;
+    /* background-color: rgb(249, 217, 176); */
+    /* background-image: url(images/books3.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 340px;
+}
+.isntagram-icon{
+    font-size: 60px;
+    transform: translate(-160px, 100px);
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285ae1 90%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.my-insta-icon{
+    font-size: 80px;
+    transform: translate(100px, 3500px);
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285ae1 90%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.pro-mene{
+    text-align: center;
+    transform: translateY(675px);
+}
+.text2:after{
+    content: "";
+    position: absolute;
+    top: -95px;
+    left: 23px;
+    right: 23px;
+    bottom: -265px;
+    border: 3.3px solid #000000;
+    border-radius: 25px;
+    z-index: -3; 
+    transform: translate(0px, 2680px);
+    /* background: #f0f0f0;
+background: radial-gradient(circle, rgba(240, 240, 240, 1) 16%, rgba(196, 196, 196, 1) 99%); */
+    background-color: #293e5e;
+}
+.promene-block::after{
+    content: "";
+    position: absolute;
+    top: -100px;
+    left: 23px;
+    right: 23px;
+    bottom: -40px;
+    border: 3.3px solid #000000;
+    border-radius: 25px;
+    z-index: -1; 
+    transform: translate(0px, 3780px);
+    background-color: #293e5e;
+}
+.osvita-block h1::before{
+    content: "";
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-color: #000000;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.osvita-vse::after{
+    content: "";
+    position: absolute;
+    top: -100px;
+    left: 23px;
+    right: 23px;
+    bottom: -435px;
+    border: 3.3px solid #000000;
+    border-radius: 25px;
+    z-index: -1; 
+    transform: translate(0px, 4665px);
+    background-color: #293e5e;
+}
+.fio{
+    text-align: center;
+    transform: translateY(180px);
+}
+.hto-ya{
+    transform: translate(100px, 735px);
+}
+.psichoterapiya{
+    transform: translate(100px, 300px);
+    align-items: center;
+}
+.pro-mene2{
+    transform: translate(100px, 230px);
+}
+.moya-robota{
+    transform: translate(100px, 790px);
+}
+.suprovid{
+    transform: translate(100px, 350px);
+}
+.pracha{
+    transform: translate(100px, 840px);
+}
+.moya-robota2{
+    transform: translate(100px, 900px);
+}
+.pracha2{
+    transform: translate(100px, 950px);
+}
+.pidhid{
+    text-align: center;
+    transform: translateY(900px);
+}
+.robota{
+    transform: translate(100px, 960px);
+}
+.history{
+    transform: translate(100px, 1015px);
+}
+.process{
+    transform: translate(100px, 1070px);
+}
+.promene-new{
+    text-align: center;
+    transform: translateY(1120px);
+}
+.htoya-new{
+    transform: translate(100px, 1180px);
+}
+.moyarobota-new{
+    transform: translate(100px, 1235px);
+}
+.pracha-new{
+    transform: translate(100px, 1290px);
+}
+.moyarobota2-new{
+    transform: translate(100px, 1345px);
+}
+.pracha2-new{
+    transform: translate(100px, 1400px);
+}
+.pidhid-block{
+    transform: translateY(-50px);
+}
+.osvita{
+    text-align: center;
+    transform: translateY(1500px) !important;
+}
+.magistr{
+    transform: translate(100px, 1490px);
+}
+.atestat{
+    transform: translate(100px, 1545px);
+}
+.pidgotovka{
+    transform: translate(100px, 1585px);
+}
+.napryamki{
+    transform: translate(100px, 2055px);
+}
+.pidhody{
+    transform: translate(100px, 2540px);
+}
+.profesiyna-block{
+    transform: translateX(100px);
+}
+.profesiyna-block::after{
+    content: "";
+    position: absolute;
+    top: -85px;
+    left: -75px;
+    right: 120px;
+    bottom: -65px;
+    border: 3.3px solid #000000;
+    border-radius: 25px;
+    z-index: -1; 
+    transform: translate(0px, 2030px);
+    background-color: #293e5e;
+}
+.profesiyna{
+    transform: translateY(1947px);
+}
+.zvernutisa-block{
+    transform: translate(100px, 25px);
+}
+.dlya-block{
+    transform: translate(100px, 35px);
+}
+.oplata-block{
+    transform: translate(100px, 45px);
+}
+.statti-block{
+    transform: translate(100px, 55px);
+}
+.zapit-block{
+    transform: translate(100px, 65px);
+}
+.contakt-block{
+    transform: translate(100px, 75px);
+}
+.zvernutisa-block::after{
+    content: "";
+    position: absolute;
+    top: -95px;
+    left: -75px;
+    right: 120px;
+    bottom: -750px;
+    border: 3.3px solid #000000;
+    border-radius: 25px;
+    z-index: -1; 
+    transform: translate(0px, 2195px);
+    background-color: #293e5e;
+}
+.oplata-block::after{
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: -75px;
+    right: 120px;
+    bottom: -355px;
+    border: 3.3px solid #000000;
+    border-radius: 25px;
+    z-index: -1; 
+    transform: translate(0px, 2615px);
+    background-color: #293e5e;
+}
+.statti-block::after{
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: -75px;
+    right: 120px;
+    bottom: -250px;
+    border: 3.3px solid #000000;
+    border-radius: 25px;
+    z-index: -1; 
+    transform: translate(0px, 2990px);
+    background-color: #293e5e;
+}
+.zapit-block::after{
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: -75px;
+    right: 120px;
+    bottom: -740px;
+    border: 3.3px solid #000000;
+    border-radius: 25px;
+    z-index: -1; 
+    transform: translate(0px, 3260px);
+    background-color: #293e5e;
+}
+.zvernutisa{
+    transform: translate(300px, 2115px);
+}
+.zapiti{
+    transform: translateY(2165px);
+}
+.trivoga{
+    transform: translateY(2215px);
+}
+.chitko{
+    transform: translateY(2265px);
+}
+.lishe{
+    transform: translateY(2285px);
+}
+.pochaty{
+    transform: translateY(2305px);
+}
+.dlya{
+    transform: translate(550px, 2385px);
+}
+.prostir{
+    transform: translateY(2445px);
+}
+.pol{
+    transform: translateY(2485px);
+}
+.povaga{
+    transform: translateY(/*2485*/2525px);
+}
+.komfort{
+    transform: translateY(2550px);
+}
+.oplata{
+    transform: translate(450px, 2632px);
+}
+.meshi{
+    transform: translateY(2682px);
+}
+.sesiya{
+    transform: translateY(2722px);
+}
+.zazdalegit{
+    transform: translateY(2762px);
+}
+.abo{
+    transform: translateY(2802px);
+}
+.regular2{
+    transform: translateY(2842px);
+}
+.oplata2{
+    transform: translateY(2882px);
+}
+.umovy{
+    transform: translateY(2922px);
+}
+.statti{
+    transform: translate(600px, 3007px);
+}
+.zbirka{
+    transform: translateY(3057px);
+}
+.analiz{
+    transform: translateY(3097px);
+}
+.material{
+    transform: translateY(3137px);
+}
+.zapit{
+    transform: translate(350px, 3280px);
+}
+.vam{
+    transform: translateY(3320px);
+}
+.sumniv{
+    transform: translateY(3360px);
+}
+.contakt{
+    transform: translate(570px, 3420px);
+}
+.meregi2{
+    transform: translateY(-10px);
+}
+.statti-button{
+    transform: translate(460px, 3190px);
+    font-size: 35px;
+    padding: 7px;
+    border-radius: 8px;
+    color: #404957;
+    background-color: #173055;
+}
+.national{
+    transform: translateY(1997px);
+}
+.ukraine{
+    transform: translateY(2002px);
+}
+.regular{
+    transform: translateY(2052px);
+}
+.napis-mereg{
+    transform: translate(250px, 3430px);
+    display: flex;
+    flex-direction: column;
+    gap: 65px;
+}
+.line{
+    height: 4px;              /* Товщина лінії */
+    background-color: #000000; /* Колір (твій сірий) */
+    margin: 20px 26px 20px 95px;
+    transform: translateY(-1365px);
+}
+.line2{
+    height: 4px;              /* Товщина лінії */
+    background-color: #000000; /* Колір (твій сірий) */
+    margin: 20px 588px 20px 672px;
+    transform: translateY(2925px);
+}
+.stovbiki{
+    transform: translate(100px, 1755px);
+}
+.text::after {
+    content: "";
+    position: absolute;
+    top: 80px;
+    left: 23px;
+    right: 23px;
+    bottom: 120px;
+    border: 3.3px solid #000000;
+    border-radius: 25px;
+    z-index: -9; 
+    transform: translateY(1750px);
+    /* background: #f0f0f0;
+    background: radial-gradient(circle, rgba(240, 240, 240, 1) 16%, rgba(196, 196, 196, 1) 99%); */
+    background-color: #293e5e;
+}
+.lang{
+    transform: translate(-5px, 180px);
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.ukr-active{
+    background-color: #5566ff;
+    color: whitesmoke;
+    font-size: 14px;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-75px, -100px);
+}
+.ukr{
+    border:5px solid #000000;
+    color: whitesmoke;
+    font-size: 14px;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: inline-block;
+    transform: translateY(-100px);
+     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rus{
+    border:5px solid #293e5e;
+    color: whitesmoke;
+    font-size: 14px;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: inline-block;
+    transform: translate(70px, -100px);
+     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rus-active{
+    background-color: #5566ff;
+    color: whitesmoke;
+    font-size: 14px;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-100px);
+}
+.eng{
+    border:5px solid #293e5e;
+    color: whitesmoke;
+    font-size: 14px;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: inline-block;
+    transform: translateY(-100px);
+     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.eng-active{
+    background-color: #5566ff;
+    color: whitesmoke;
+    font-size: 14px;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-100px);
+}
+.tablo{
+    transform: translateY(-4170px);
+    text-align: center;
+}
+.namas{
+    margin-top: 44px;
+}
+.call{
+    margin-top: 20px;
+}
+.vybir{
+    margin-top: 50px;
+}
+.zayavka{
+    margin-top: 50px;
+    font-size: 20px;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: #293e5e;
+    color: rgb(129, 218, 123);
+}
+select, input{
+    padding: 5px;
+    font-size: 20px;
+    color: #404957;
+    background-color: #293e5e;
+    border-radius: 8px;
+}
+@media (max-width: 600px){
+    .navigation{
+        font-size: 18px;
+        display: flex;
+        gap: 7px;
+       display: flex;
+       transform: translate(160px, 50px);
+       display: none;
+    }
+    .navigation.active{
+    display: block;
+    display: flex;
+    flex-direction: column;
+}
+.navigation::after{
+    content: "";
+    display: flex;
+    flex-direction: column;
+    border: 3px solid black;
+    z-index: -2;
+    position: absolute;
+    top: -40px;
+    left: -92px;
+    right: -18px;
+    bottom: -12px;
+}
+    .menu{
+        width: 33px;
+        height: 21px;
+    }
+    .menu-container{
+        background-color: #293e5e;
+    content: "";
+    position: absolute;
+    top: 105px;
+    left: 35px;
+    right: 35px;
+    bottom: 530px;
+    border-radius: 10px;
+    z-index: 9;
+    border: 3px solid /*#404957*/black;
+    transform: translate(-7px, 65px) !important;
+    }
+    .tablo{
+        transform: translateY(-4525px);
+    }
+    .vybir{
+    margin-top: 25px;
+}
+.call{
+    margin-top: 10px;
+}
+.namas{
+    margin-top: 35px;
+}
+.zayavka{
+    margin-top: 35px;
+    font-size: 17px;
+}
+select, input{
+    font-size: 15px;
+}
+    .menu span{
+    display: block;
+    height: 3.3px;
+    background-color: rgb(0, 0, 0); 
+    border-radius: 8px;
+    transform: translate(-518px, -7px);
+    }
+    .logo{
+        transform: translate(0px, 6px);
+        width: 24%;
+    }
+    .lang{
+        transform: translate(-13px, 130px);
+        gap: 12px;
+    }
+    .logo-gradient{
+        height: 160px;
+    }
+    .isntagram-icon{
+        font-size: 38px;
+        transform: translate(-80px, 63px);
+    }
+    .my-insta-icon{
+        font-size: 48px;
+        transform: translate(-15px, 63px);
+    }
+    .psycholog{
+        width: 90%;
+        height: auto;
+       
+        transform: translate(-7px, 65px) !important;
+    }
+    .pp{
+        display: flex;
+        justify-content: center;
+    }
+    .facebook{
+        width: 9%;
+        height: auto;
+        transform: translate(-65px, 65px);
+    }
+    .facebook-icon{
+        width: 12%;
+        height: auto;
+        transform: translate(-61px, 130px);
+    }
+    .telegram{
+        width: 9%;
+        height: auto;
+        transform: translate(-30px, 65px);
+    }
+    .telegram-icon{
+        width: 12%;
+        height: auto;
+        transform: translate(-155px, 252px);
+    }
+    .linkedin{
+        width: 9%;
+        height: auto;
+        transform: translate(-45px, 65px);
+    }
+    .linkedin-icon{
+        width: 11%;
+        height: auto;
+        transform: translate(-108px, 189px)
+    }
+    .meregi{
+        transform: translate(60px, -45px);
+    }
+    .pro-mene{
+        font-size: 24px;
+        transform: translateY(240px);
+    }
+    .hto-ya{
+        transform: translate(35px, 265px);
+        font-size: 18px;
+    }
+    .txt-button{
+        font-size: 27px;
+    }
+    .moya-robota{
+        transform: translate(35px, 280px);
+        font-size: 18px;
+    }
+.pro-mene2{
+    font-size: 18px;
+    transform: translate(35px, 130px);
+}
+.psichoterapiya{
+    font-size: 18px;
+    transform: translate(35px, 150px);
+}
+.suprovid{
+    font-size: 18px;
+    transform: translate(35px, 170px);
+}
+.fio{
+    text-align: center;
+    transform: translateY(100px);
+    font-size: 24px;
+}
+.pracha{
+    font-size: 18px;
+    transform: translate(35px, 295px );
+}
+.pidhid{
+    font-size: 24px;
+    transform: translateY(900px);
+}
+.robota{
+    font-size: 18px;
+    transform: translate(35px, 925px);
+}
+.history{
+    font-size: 18px;
+    transform: translate(35px, 940px);
+}
+.process{
+    font-size: 18px;
+    transform: translate(35px, 955px);
+}
+.promene-new{
+    font-size: 24px;
+    transform: translateY(1066px);
+}
+.htoya-new{
+    font-size: 18px;
+    transform: translate(35px, 1091px);
+}
+.moyarobota-new{
+    font-size: 18px;
+    transform: translate(35px, 1106px);
+}
+.pracha-new{
+    font-size: 18px;
+    transform: translate(35px, 1120px);
+}
+.moyarobota2-new{
+    font-size: 18px;
+    transform: translate(35px, 1134px);
+}
+.pracha2-new{
+    font-size: 18px;
+    transform: translate(35px, 1148px);
+}
+.osvita{
+    font-size: 24px;
+    text-align: center;
+    transform: translateY(715px) !important;
+}
+.magistr{
+    font-size: 18px;
+    transform: translate(35px, 650px);
+}
+.atestat{
+    font-size: 18px;
+    transform: translate(35px, 665px);
+}
+.pidgotovka{
+    font-size: 18px;
+    transform: translate(35px, 680px);
+}
+.napryamki{
+    font-size: 18px;
+    transform: translate(35px, 1262px);
+}
+.stovbiki h1{
+    font-size: 18px;
+}
+.stovbiki{
+    transform: translate(25px, 760px);
+}
+.pidhody{
+     transform: translate(35px, 1585px);
+     font-size: 18px;
+}
+.profesiyna{
+    font-size: 24px;
+    transform: translate(35px,911px);
+}
+.national{
+    font-size: 18px;
+    transform: translate(35px, 926px);
+}
+.ukraine{
+    font-size: 18px;
+    transform: translate(35px, 936px);
+}
+.regular{
+    font-size: 18px;
+    transform: translate(35px, 953px);
+}
+.zvernutisa{
+    font-size: 24px;
+    text-align: center;
+    transform: translateY(1016px);
+}
+.zapiti{
+    font-size: 18px;
+    transform: translate(35px, 1032px);
+}
+.trivoga{
+    font-size: 18px;
+    transform: translate(25px, 1047px);
+}
+.chitko{
+    font-size: 18px;
+    transform: translate(25px, 1062px);
+}
+.lishe{
+    font-size: 18px;
+    transform: translate(25px, 1072px);
+}
+.pochaty{
+    font-size: 18px;
+    transform: translate(25px, 1087px);
+}
+.dlya{
+    font-size: 24px;
+    text-align: center;
+    transform: translateY(1107px);
+}
+.prostir{
+    font-size: 18px;
+    transform: translate(25px, 1122px);
+}
+.pol{
+    font-size: 18px;
+    transform: translate(25px, 1137px);
+}
+.povaga{
+    font-size: 18px;
+    transform: translate(25px, 1152px);
+}
+.komfort{
+    font-size: 18px;
+    transform: translate(25px, 1167px);
+}
+.oplata{
+    font-size: 24px;
+    transform: translate(60px, 1231px);
+}
+.meshi{
+    font-size: 18px;
+    transform: translate(25px, 1246px);
+}
+.sesiya{
+    font-size: 18px;
+    transform: translate(25px, 1261px);
+}
+.zazdalegit{
+    font-size: 18px;
+    transform: translate(25px, 1276px);
+}
+.abo{
+    font-size: 18px;
+    transform: translate(25px, 1291px);
+}
+.regular2{
+    font-size: 18px;
+    transform: translate(25px, 1306px);
+}
+.oplata2{
+    font-size: 18px;
+    transform: translate(25px, 1321px);
+}
+.umovy{
+    font-size: 18px;
+    transform: translate(25px, 1336px);
+}
+.statti{
+    font-size: 24px;
+    text-align: center;
+    transform: translateY(1399px);
+}
+.zbirka{
+    font-size: 18px;
+    transform: translate(25px, 1414px);
+}
+.analiz{
+    font-size: 18px;
+    transform: translate(25px, 1429px);
+}
+.material{
+    font-size: 18px;
+    transform: translate(25px, 1444px);
+}
+.statti-button{
+    transform: translate(80px, 1464px);
+    font-size: 15px;
+    padding: 6px;
+}
+.zapit{
+    font-size: 24px;
+    text-align: center;
+    transform: translateY(1530px);
+}
+.vam{
+    font-size: 18px;
+    transform: translate(25px, 1545px);
+}
+.sumniv{
+    font-size: 18px;
+    transform: translate(18px, 1560px);
+}
+.contakt{
+    font-size: 24px;
+    text-align: center;
+    transform: translateY(1603px);
+}
+.meregi2{
+    transform: translate(45px, 1561px);
+}
+.napis-mereg{
+    transform: translate(85px, 1583px);
+    gap: 16px;
+}
+.napis-mereg h1{
+    font-size: 18px;
+}
+.text2{
+    transform: translateY(140px);
+}
+.text{
+    position: relative;
+    z-index: 10;
+}
+.text::after{
+    content: "";
+    position: absolute;
+    top: -400px;
+    left: 13px;
+    right: 27px;
+    bottom: 292px;
+    border: 3px solid black;
+    border-radius: 25px;
+    z-index: -99;
+    transform: translate(0px, 485px);
+}
+.text2::after{
+    content: "";
+    position: absolute;
+    top: -403px;
+    left: 13px;
+    right: 27px;
+    bottom: -97px;
+    border: 3px solid black;
+    border-radius: 25px;
+    z-index: -99;
+    transform: translate(0px, 627px);
+} 
+.promene-block::after{
+    content: "";
+    position: absolute;
+    top: -305px;
+    left: 13px;
+    right: 27px;
+    bottom: 182px;
+    border: 3px solid #000000;
+    border-radius: 25px;
+    z-index: -1; 
+    transform: translate(0px, 1353px);
+    background-color: #293e5e;
+}
+.osvita-vse::after{
+     content: "";
+    position: absolute;
+    top: 0px;
+    left: 13px;
+    right: 27px;
+    bottom: -362px;
+    border: 3px solid #000000;
+    border-radius: 25px;
+    z-index: -1; 
+    transform: translate(0px, 2932px);
+    background-color: #293e5e;
+}
+.osvita-block h1::before{
+    content: "";
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+}
+.profesiyna-block::after{
+      content: "";
+    position: absolute;
+    top: 0px;
+    left: 13px;
+    right: 27px;
+    bottom: -79px;
+    border: 3px solid #000000;
+    border-radius: 25px;
+    z-index: -1; 
+    transform: translate(0px, 896px);
+    background-color: #293e5e;
+}
+.zvernutisa-block::after{
+     content: "";
+    position: absolute;
+    top: 0px;
+    left: 13px;
+    right: 27px;
+    bottom: -510px;
+    border: 3px solid #000000;
+    border-radius: 25px;
+    z-index: -1; 
+    transform: translate(0px, 1000px);
+    background-color: #293e5e;
+}
+.oplata-block::after{
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 13px;
+    right: 27px;
+    bottom: -142px;
+    border: 3px solid #000000;
+    border-radius: 25px;
+    z-index: -1; 
+    transform: translate(0px, 1215px);
+    background-color: #293e5e;
+}
+.statti-block::after{
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 13px;
+    right: 27px;
+    bottom: -107px;
+    border: 3px solid #000000;
+    border-radius: 25px;
+    z-index: -1; 
+    transform: translate(0px, 1383px);
+    background-color: #293e5e;
+}
+.zapit-block::after{
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 13px;
+    right: 27px;
+    bottom: -399px;
+    border: 3px solid #000000;
+    border-radius: 25px;
+    z-index: -1; 
+    transform: translate(0px, 1515px);
+    background-color: #293e5e;
+}
+.line{
+    height: 2.4px;
+    margin: 20px 30px 20px 27px;
+    transform: translateY(-2105px);
+}
+.line2{
+    height: 2.2px;
+    margin: 20px 120px 20px 119px;
+    transform: translateY(1237px);
+}
+.pidhid-block{
+    transform: translateY(-455px);
+}
+.promene-block{
+    transform: translateY(-500px);
+}
+.profesiyna-block{
+    transform: translateX(0px);
+}
+.zvernutisa-block{
+    transform: translateX(0px);
+}
+.dlya-block{
+    transform: translateX(0px);
+}
+.oplata-block{
+    transform: translateX(0px);
+}
+.statti-block{
+    transform: translateX(0px);
+}
+.zapit-block{
+    transform: translateX(0px);
+}
+.contakt-block{
+    transform: translateX(0px);
+}
+.ukr{
+    border:3px solid #000000;
+    width: 22px;
+    height: 22px;
+    font-size: 8px;
+}
+.ukr-active{
+    border:2px solid #000000;
+   transform: translate(-23px, -100px);
+    width: 22px;
+    height: 22px;
+    font-size: 8px;
+}
+.rus{
+    border:3px solid #000000;
+    width: 22px;
+    height: 22px;
+    font-size: 8px;
+}
+.rus-active{
+    border:2px solid #000000;
+    width: 22px;
+    height: 22px;
+    font-size: 8px;
+}
+.eng{
+    border:3px solid #000000;
+    width: 22px;
+    height: 22px;
+    font-size: 8px;
+}
+.eng-active{
+    border:2px solid #000000;
+    width: 22px;
+    height: 22px;
+    font-size: 8px;
+}
+.pc-enter{
+    display: none;
+}
+}
+@media (min-width:1024px){
+    .txt-button{
+        font-size: 50px;
+    }
+    .pidhid{
+        font-size: 50px;
+    }
+    .psycholog{
+        transform: translate(-70px, 100px);
+    }
+    .pro-mene{
+        font-size: 50px;
+    }
+    .fio{
+        font-size: 50px;
+    }
+    .promene-new{
+        font-size: 50px;
+    }
+    .osvita{
+        font-size: 50px;
+    }
+    .profesiyna{
+        font-size: 50px;
+    }
+    .zvernutisa{
+        font-size: 50px;
+    }
+    .dlya{
+        font-size: 50px;
+    }
+    .oplata{
+        font-size: 50px;
+    }
+    .statti{
+        font-size: 50px;
+    }
+    .zapit{
+        font-size: 50px;
+    }
+    .contakt{
+        font-size: 50px;
+    }
+    .mobile-enter{
+        display: none;
+    }
+    .ukr-active{
+        border:3.9px solid #293e5e;
+    }
+    .rus-active{
+        border:3.9px solid #293e5e;
+    }
+    .eng-active{
+        border:3.9px solid #293e5e;
+    }
+}
