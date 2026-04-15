@@ -1089,7 +1089,7 @@ select, input{
     border: 3px solid #000000;
     border-radius: 25px;
     z-index: -1; 
-    transform: translate(0px, 1890px);
+    transform: translate(0px, 1880px);
     background-color: #293e5e;
 }
 .osvita-block h1::before{
